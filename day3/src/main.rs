@@ -105,11 +105,11 @@ fn part2(input: i32) -> i32{
         }
     }
 
-    return 0;
+    0
 }
 
 fn main() {
-    let input = 277678;
+    let input = 277_678;
 
     println!("Part 1: {}", part1(input));
     println!("Part 2: {}", part2(input));

@@ -1,6 +1,3 @@
-use std::fs::File;
-use std::io::prelude::*;
-
 fn part1(input: &str) -> u32{
     let mut sum = 0;
 
